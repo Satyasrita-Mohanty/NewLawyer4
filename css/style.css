@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+*{
+    box-sizing: border-box;
+}
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    height: 660px;
+    background-size: cover;
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+}
+.jumbotron-header {
+    
+    padding: 10px 0px;
+}
+.navLink{
+   font-family: 'Montserrat', sans-serif;
+   color: #ffffff;
+   font-size: 15px;
+   text-decoration: none;
+}
+.navLink:hover{
+   text-decoration: none; 
+   color:  #e8b417;
+}
+.active1{
+   color:  #e8b417;  
+}
+.jumbotron-footer{
+   background:#060506 !important;
+	border-radius: 0px !important;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align:left;
+	padding: 100px 0px 100px 0px !important;
+    margin: 0px;
+}
+.footer-heading{
+	color: #fff;
+	font-size:16px;
+	text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	 font-family: 'Montserrat', sans-serif;
+ 
+}
+.footer-links{
+	color: #eee;
+	font-size:14px;
+	text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px 0px 8px 0px;
+    line-height: 32px !important;
+}
+.footer-links:hover{
+	color: #fff !important;
+    text-decoration: none;
+}
+.footer-social-icon{
+    color: #fff;
+    font-size: 15px;
+}
+.logo{
+     color: #ffffff !important;
+     font-weight: bold;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 26px;
+     letter-spacing: 2px;
+}
+.topPadding{
+    position: relative;
+    top: 110px;
+    left: 30px;
+}
+.bigHeading{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 58px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+.bigHeading span{
+    color:  #e8b417;
+}
+.consulButton{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color:  #e8b417;
+    padding: 16px 21px;
+}
+.consulButton:hover{
+    border: 2px solid  #e8b417;
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+}
+.logo1{
+     color: #e8b417 !important;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 12px;
+}
+.navLink1{
+   color: #000000 !important;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 10px !important;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.navLink1:hover{
+    color: #e8b417 !important; 
+    background-color: transparent;
+}
+.subHeading{
+     font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+.yellowBox{
+    background-color: #e8b417;
+    padding: 42px 30px;
+    text-align: center;
+}
+.bigHeading2{
+    font-size: 25px;
+    margin: 0px auto;
+    text-transform: capitalize;
+}
+
+
+
+
+
+/* Extra small devices (phones, 300px and down)  start*/
+@media only screen and (max-width: 300px) {
+   
+    
+}
+
+
+/* Extra small devices (phones, 320px and down)  start */
+@media only screen and (max-width: 320px) {
+
+
+}
+
+
+/* Medium devices ( 767px and down) start */
+@media only screen and (max-width: 767px){ 
+
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up)  start*/
+@media only screen and (min-width: 768px) {
+  .navLink{
+    padding: 0px 10px;     
+ }
+    
+}
+    
+
+/* Medium devices ( 768px and down) start */
+@media only screen and (max-width: 768px){ 
+    .bigHeading{
+        font-size: 35px;
+    }
+    .navLink{
+        font-size: 12px; 
+    }
+    
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up)  start*/
+@media only screen and (min-width: 992px) {
+ .navLink{
+    padding: 0px 4px;     
+ }
+    
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up)  start*/
+@media only screen and (min-width: 1200px) {
+  .navLink{
+     padding: 0px 10px;     
+  }
+ 
+}
