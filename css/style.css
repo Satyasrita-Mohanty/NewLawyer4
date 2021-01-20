@@ -126,7 +126,7 @@ nav{
      font-size: 12px;
 }
 .navLink1{
-   color: #000000 !important;
+    color: #000000 !important;
     font-family: 'Montserrat', sans-serif;
     padding: 10px 10px !important;
     font-size: 12px;
@@ -137,7 +137,7 @@ nav{
     background-color: transparent;
 }
 .subHeading{
-     font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 16px;
     letter-spacing: 1px;
@@ -145,7 +145,7 @@ nav{
 }
 .yellowBox{
     background-color: #e8b417;
-    padding: 42px 30px;
+    padding: 40px 30px;
     text-align: center;
 }
 .bigHeading2{
@@ -153,7 +153,66 @@ nav{
     margin: 0px auto;
     text-transform: capitalize;
 }
-
+.bigHeading1{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 44px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+.bigHeading1 span{
+    color: #e8b417;
+    font-size: 44px;
+}
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.6; 
+    letter-spacing: 1px;
+}
+.subHeadingGrey{
+    color:  #8c8c8c;
+}
+.consulButtonBlack:hover{
+    color: #000000;
+}
+.backImg1{
+   background-image: url(../images/law.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 60px 65px;
+   border-radius: 50%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.active2{
+    font-size: 19px;
+}
+.clrBack{
+    background-color:  #fdf7e8;
+    padding: 100px 0px;
+}
+.greyBox{
+    padding: 40px 30px 30px 30px;
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+.greyBox:hover{
+    background-color: #f7dfa1;
+}
+.heading1{
+    font-size: 24px;
+}
+.heading1Clr{
+    color: #d39d12;
+    font-size: 44px;
+    margin-bottom: -5px;
+}
 
 
 
@@ -184,6 +243,9 @@ nav{
   .navLink{
     padding: 0px 10px;     
  }
+    .bigHeading1{
+        font-size: 27px;
+    }
     
 }
     
@@ -207,6 +269,10 @@ nav{
  .navLink{
     padding: 0px 4px;     
  }
+    .bigHeading1{
+        font-size: 32px;
+    }
+    
     
 }
 
